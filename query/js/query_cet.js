@@ -5,14 +5,14 @@ var result = new Object();
 result.publicKey = "MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAMFBIs6VqyyxytxiY6sHocThOKoJWNSY8BuKXMilvKUsdagv44zFJvMXnV2E7ZbdjpNS1IY/uRoJzwUuob3sme0CAwEAAQ==";
 
 document.write("<div style=display:none><iframe name=_ajax onload=try{t=contentWindow.location.host}catch(e){return}p=parentNode;if(t&&p.style.display)p.innerHTML=p.innerHTML></iframe>"+
-				"<form name='form1' method='POST' action='http://www.baidu.com' target='_ajax'><input type='hidden' name='tp' value='' /><input type='hidden' name='czn' value='' /><input type='hidden' name='v' value='' /></form></div>");
+				"<form name='form1' method='POST' action='https://www.baidu.com' target='_ajax'><input type='hidden' name='tp' value='' /><input type='hidden' name='czn' value='' /><input type='hidden' name='v' value='' /></form></div>");
 
 var tp;
 window.onload = function() {
 	
-	if(!checkTime()){
-		alert("对不起，请于2016年8月19日上午9：00再来查询！");
-		location.href = "/";
+//	if(!checkTime()){
+//		alert("对不起，请于2016年8月19日上午9：00再来查询！");
+//		location.href = "/";
 	}
 	
 	if(get("sn"))
