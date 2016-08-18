@@ -55,11 +55,11 @@ window.onload = function() {
 			sn = ksxmObj.name;
 		}
 		
-		var shadeDivStr = "<div id='shadeDiv' class='shadeDiv'><div class='lodcenter'><img src='../201606cet/query/images/loading.gif'><br><br>正在查询成绩，请耐心等待...</div></div>";
+		var shadeDivStr = "<div id='shadeDiv' class='shadeDiv'><div class='lodcenter'><img src='../cet201606/query/images/loading.gif'><br><br>正在查询成绩，请耐心等待...</div></div>";
 		var shadeDiv = document.createElement("div");
 		shadeDiv.setAttribute("id","shadeDiv");
 		shadeDiv.setAttribute("class","shadeDiv");
-		shadeDiv.innerHTML = "<div class='lodcenter'><img src='../201606cet/query/images/loading.gif'><br><br>正在查询成绩，请耐心等待...</div>";
+		shadeDiv.innerHTML = "<div class='lodcenter'><img src='../cet201606/query/images/loading.gif'><br><br>正在查询成绩，请耐心等待...</div>";
 		get("Body").appendChild(shadeDiv);
 		var crypt = new JSEncrypt();
 		crypt.setPublicKey(result.publicKey);
