@@ -13,7 +13,7 @@ window.onload = function() {
 //	if(!checkTime()){
 //		alert("对不起，请于2016年8月19日上午9：00再来查询！");
 //		location.href = "/";
-	}
+//	}
 	
 	if(get("sn"))
 		tp = 1;
